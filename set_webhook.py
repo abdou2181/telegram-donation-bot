@@ -1,7 +1,7 @@
 import requests
 
-TOKEN = "YOUR_BOT_TOKEN_HERE"
-WEBHOOK_URL = "https://your-project.vercel.app/webhook/YOUR_BOT_TOKEN_HERE"
+TOKEN = "7906357564:AAFMuF8SlDXThQ0Vhux1JUGY2x-Tepi7_Gs"
+WEBHOOK_URL = "https://telegram-donation-bot.vercel.app/webhook/7906357564:AAFMuF8SlDXThQ0Vhux1JUGY2x-Tepi7_Gs"
 
 url = f"https://api.telegram.org/bot{TOKEN}/setWebhook"
 data = {"url": WEBHOOK_URL}
